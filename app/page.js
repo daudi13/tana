@@ -1,95 +1,137 @@
+"use client"
+
 import Image from 'next/image'
-import styles from './page.module.css'
+import Link from 'next/link'
+import styles from './styles/Home.module.scss'
+import Group from './assets/Group108.png'
+import Cloud from './assets/cloud-add.svg'
+import Global from './assets/global.svg'
+import Message from './assets/message.svg'
+import cost from './assets/wallet-add.svg'
+import vector from './assets/Vector 7.png'
+import { Archivo } from 'next/font/google';
+import newGroup from "./assets/Group108.png";
+import Head from 'next/head';
+import { data, data2, cards } from './data/data'
+
+const archivo = Archivo({subsets: ['latin']})
+
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
+    <>
+      <Head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500&display=swap"
+          rel="stylesheet"
         />
-      </div>
+      </Head>
+    <main className={styles.mainSection}>
+      <div className={styles.heroSection}>
+        <div className={styles.overlay}>
+        </div>
+          <div className={styles.heroText}>
+          <Image src={Group} className={styles.groupImg} alt="group" />
+            <p className={styles.headerText}>Unlock the world as <br />your <strong>talent pool</strong></p>
+            <h3 className={styles.subTitle}>The Future of work is here</h3>
+            <Link href="" className={styles.heroBtn}>Grow Your team</Link>
+          </div>
+        </div>
+        <div className={styles.valuePreposition}>
+          <h3 className={styles.valuePrepostionTitle}>Reach new heights with incredible team members based in Africa –<br /> <span className={styles.mainText}>the world’s fastest-growing workforce</span></h3>
+          <Image src={vector} className={styles.vectorSmile} />
+          <div className={styles.valuePrepositionIcons}>
+            <div className={styles.valueIconBox}>
+              <div className={`${styles.iconBox} ${styles.iconBlue}`}>
+              <Image src={Cloud} className={styles.groupImg} alt="group" />
+              </div>
+              <h4 className={styles.valueIconTitle}>Tech-savvy</h4>
+              <p className={styles.valueIconText}>Ready to shine in tech & product roles</p>
+            </div>
+            <div className={styles.valueIconBox}>
+              <div className={`${styles.iconBox} ${styles.iconYellow}`}>
+              <Image src={Message} className={styles.groupImg} alt="group" />
+              </div>
+              <h4 className={styles.valueIconTitle}>Tech-savvy</h4>
+              <p className={styles.valueIconText}>Seamless collaboration with global teams</p>
+            </div>
+            <div className={styles.valueIconBox}>
+              <div className={`${styles.iconBox} ${styles.iconBlue}`}>
+              <Image src={Global} className={styles.groupImg} alt="group" />
+              </div>
+              <h4 className={styles.valueIconTitle}>Tech-savvy</h4>
+              <p className={styles.valueIconText}>Ready to shne in tech & product roles</p>
+            </div>
+            <div className={styles.valueIconBox}>
+              <div className={`${styles.iconBox} ${styles.iconYellow}`}>
+              <Image src={cost} className={styles.groupImg} alt="group" />
+              </div>
+              <h4 className={styles.valueIconTitle}>Tech-savvy</h4>
+              <p className={styles.valueIconText}>Affordable for teams at any size</p>
+            </div>
+          </div>
+        </div>
+        <div className={styles.meetOurTeam}>
+          <h2 className={styles.meetOurTeamTitle}>Meet our Team</h2>
+          <iframe src="https://player.vimeo.com/video/835781373?h=b24e1c23b9" width="2120" height="515"  frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          <p className={styles.meetOurTeamText}>Curious to see who could be joining the slack on Monday?</p>
+          <Link href="" className={styles.learnBtn}>Learn more here</Link>
+        </div>
+        <div className={styles.socialProof}>
+          <h2 className={styles.socialProofTitle}>Trusted By</h2>
+          <div className={styles.logos}>
+            {
+              data.map((img, index) => (
+                <Image src={img} key={index} className={styles.logoImg} />
+              ))
+            }
+          </div>
+        </div>
+        <div className={styles.whyUs}>
+          <h3 className={styles.whyUsTitleMain}>Why we're better</h3>
+          {
+            data2.map((item, index) => (
+              <div key={index} className={`${styles.whyUsBox} ${item.right && styles.whyUsRight}`}>
+                <div className={styles.desc}>
+                  <h3 className={styles.whyUsTitle}>{item.title}</h3>
+                  <div className={styles.whyUsDash}></div>
+                  <p className={styles.whyUsText}>{item.content}</p>
+                  <Link href={item.hrefLink} className={`${item.activeBtn ? styles.active : styles.btn}`}>{item.linkName}</Link>
+                </div>
+                <Image src={item.img} className={styles.imageCover} />
+              </div>
+            ))
+          }
+        </div>
+        <div className={styles.happy}>
+          <h3 className={styles.happyTitle}>You could be this happy</h3>
+          <div className={styles.happyCard}>
+            {
+              cards.map((item, index) => (
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+                <div key={index} className={styles.cardBox}>
+                  <Image src={item.img} className={styles.image} />
+                  <p className={styles.content}>{item.content}</p>
+                  <div className={styles.photoCutOut}></div>
+                  <Image src={item.img2} className={styles.quotes} />
+                  <div className={styles.credentials}>
+                    <p className={styles.name}>{item.managerName}</p>
+                    <p className={styles.position}>{item.position}</p>
+                  </div>
+                </div>
+              ))
+            }
+          </div>
+          </div>
+        <div className={styles.preFooter}>
+          <div className={styles.preFooterHero}>
+            <Image src={newGroup} />
+            <h3 className={styles.preFooterTitle}>Be a part of the movement</h3>
+            <p className={styles.preFooterText}>Global equity starts with giving talented young people everywhere the chance to build meaningful careers.</p>
+            <Link href="" className={styles.joinBtn}>Join Us</Link>
+          </div>
+        </div>
     </main>
+    </>
   )
 }

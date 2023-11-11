@@ -1,0 +1,406 @@
+    
+    .mainSection{
+      margin-bottom: 5rem;
+    }
+    .heroSection{
+      background-image: url('../assets/pexels-christina-morillo-1181251\ 1.png');
+      width: 100%;
+      height: 800px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+    
+      .overlay {
+        position: absolute;
+        top: 0px;
+        bottom: 0;
+        left: -100px;
+        right: 50%;
+        height: 100%;
+        width: 50%;
+        background-color: rgba(255, 255, 255, 0.8);
+        filter: blur(50px);
+      }
+    
+      .heroText{
+        width: 100%;
+        height: 337px;
+        z-index: 100000;
+        padding-left: 300px;
+    
+        .headerText {
+          font-size: 58px;
+          font-weight: 500;
+          line-height: 65px;
+          font-family: 'Open Sans', sans-serif;
+          margin-bottom: 20px;
+        }
+    
+        .subTitle{
+          font-size: 23px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 400;
+          margin-bottom: 30px;
+        }
+    
+        .heroBtn{
+          font-size: 20px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 700;
+          text-decoration: none;
+          color: #fff;
+          padding: 12.5px;
+          background-color:#0E9AC0;
+          border-radius: 30px;
+        }
+      }
+      
+    
+    }
+    .valuePreposition {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 5rem;
+
+      .valuePrepostionTitle {
+        font-size: 32px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        text-align: center;
+        
+        .mainText{
+          color: #0e9ac0;
+          margin-bottom: 30px;
+        }
+      }
+
+      .vectorSmile {
+        margin-top: 20px;
+      }
+
+      .valuePrepositionIcons {
+        margin-top: 60px;
+        display: flex;
+        gap: 20px;
+
+        .valueIconBox{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 10px;
+          width: 273px;
+
+          .iconBox{
+            width: 72px;
+            height: 72px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 20px;
+          }
+
+          .iconBlue{
+            background-color: #0e9ac0;
+          }
+
+          .iconYellow{
+            background-color: #FFD478;
+          }
+
+          .valueIconTitle {
+            font-size: 24px;
+            font-weight: 500;
+            margin-top: 10px;
+            font-family: 'Open Sans', sans-serif;
+          }
+
+          .valueIconText {
+            font-size: 16px;
+            font-weight: 400;
+            margin-top: 20px;
+            font-family: 'Open Sans', sans-serif;
+            text-align: center;
+          }
+        }
+      }
+
+    }
+    .meetOurTeam {
+      padding: 5rem 0;
+      background-color: #F3FAFC;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .meetOurTeamTitle {
+        font-weight: 600;
+        font-size: 48px;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 30px;
+      }
+
+      .meetOurTeamText {
+        font-weight: 400;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 30px;
+      }
+
+      .learnBtn {
+        padding: 12.5px 14px;
+        border-radius: 30px;
+        border: 2px solid #090b0e;
+        text-decoration: none;
+        font-size: 20px;
+        color: #090b0e;
+        font-weight: 700;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 30px;
+      }
+    }
+
+    .socialProof{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding:9rem 0;
+
+      .socialProofTitle{
+        font-weight: 400;
+        font-size: 24px;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 30px;
+      }
+
+      .logos{
+        display: flex;
+        align-items: center;
+        gap: 60px;
+        margin-top: 30px;
+      }
+    }
+
+    .whyUs {
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .whyUsTitleMain {
+        font-size: 48px;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 60px;
+      }
+
+      .whyUsBox{
+        width: 929px;
+        display: flex;
+        gap: 60px;
+        margin-bottom: 120px;
+        
+        .desc{
+          width: 430px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+          .whyUsTitle{
+            font-weight: 500;
+            font-size: 32px;
+            font-family: 'Open Sans', sans-serif;
+            padding-bottom: 10px;
+          }
+          .whyUsDash{
+            height: 2px;
+            width: 50px;
+            background-color: #0E9AC0;
+          }
+          .whyUsText{
+            font-weight: 400;
+            font-size: 20px;
+            font-family: 'Open Sans', sans-serif;
+            padding-bottom: 10px;
+            margin-top: 20px;
+          }
+          .btn{
+            align-self: flex-start;
+            padding: 12.5px 14px;
+            border-radius: 30px;
+            border: 2px solid #090b0e;
+            text-decoration: none;
+            font-size: 20px;
+            color: #090b0e;
+            font-weight: 700;
+            font-size: 20px;
+            font-family: 'Open Sans', sans-serif;
+            margin-top: 30px;
+          }
+          
+
+          .active {
+            align-self: flex-start;
+            padding: 12.5px 14px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #ffffff;
+            background-color: #0E9AC0;
+            font-weight: 700;
+            font-size: 20px;
+            font-family: 'Open Sans', sans-serif;
+            margin-top: 30px;
+          }
+
+        }
+        .imageCover{
+          width: 430px;
+          height: auto;
+        }
+      }
+
+      .whyUsRight{
+        flex-direction: row-reverse;
+      }
+    }
+
+    .happy{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin: 5rem 0;
+
+      .happyTitle {
+        font-size: 40px;
+        font-weight: 500;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 60px;
+        color: #262f43;
+      }
+      
+      .happyCard{
+        display: flex;
+        gap: 30px;
+
+        .cardBox {
+          position: relative;
+
+          .image{
+            width: 360px;
+            height: 473px;
+          }
+          
+          .content{
+            position: absolute;
+            top: 90px;
+            left: 30px;
+            right: 30px;
+            max-width: 280px;
+            font-size: 17px;
+            font-weight: 400;
+            font-family: 'Open Sans', sans-serif;
+          }
+
+          .photoCutOut{
+            position: absolute;
+            bottom: 110px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #D9D9D9;
+            border: 5px solid white;
+          }
+
+          .quotes{
+            position: absolute;
+            top: 50px;
+            left: 30px;
+            height: 17.19px;
+            width: 16.28px;
+          }
+
+          .credentials{
+            text-align: center;
+            position: absolute;
+            bottom: 70px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            .name{
+              font-size: 14px;
+              font-weight: 600;
+              font-family: 'Open Sans', sans-serif;
+              color: white;
+            }
+
+            .position {
+              font-size: 10px;
+              font-weight: 400;
+              font-family: 'Open Sans', sans-serif;
+              color: white;
+            }
+          }
+        }
+      }
+      
+    }
+    
+
+.preFooter{
+  background-image: url("../assets/pexels-arina-krasnikova-7005399\ 1.png");
+  height: 800px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  .preFooterHero{
+    width: 613px;
+    display: flex;
+    flex-direction: column;
+    padding: 42px;
+    align-items: center;
+    gap: 30px;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(2px);
+
+    .preFooterTitle{
+      font-size: 40px;
+      font-weight: 500;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    .preFooterText{
+      font-size: 20px;
+      font-weight: 400;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    .joinBtn{
+      padding: 12.5px 14px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 20px;
+      color: #ffffff;
+      background-color: #0E9AC0;
+      font-weight: 700;
+      font-size: 20px;
+      font-family: 'Open Sans', sans-serif;
+    }
+  }
+}

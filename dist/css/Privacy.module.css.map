@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../app/styles/Privacy.module.scss"
+    ],
+    "names": [],
+    "file": "Privacy.module.css"
+}

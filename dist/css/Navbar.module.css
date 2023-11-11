@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;0,800;1,600&display=swap");
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 0;
+  z-index: 1000;
+}
+
+.navbar .navbarWrapper {
+  width: 70%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar .navbarWrapper .menuItems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+  gap: 30px;
+}
+
+.navbar .navbarWrapper .menuItems .menuItem {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  size: 14px;
+  line-height: 20.3px;
+}
+
+.navbar .navbarWrapper .menuItems .menuItem .menuLinks {
+  text-decoration: none;
+  color: #262F43;
+}
+
+.navbar .navbarWrapper .menuItems .menuItem .menuAction {
+  color: #fff !important;
+}
+
+.navbar .navbarWrapper .menuItems .actionBtn {
+  background-color: #0E9AC0;
+  padding: 10.5px;
+  border-radius: 30px;
+}
+
+.navbar .navbarWrapper .logoImg {
+  width: 101px;
+  height: 32px;
+}
+/*# sourceMappingURL=Navbar.module.css.map */
