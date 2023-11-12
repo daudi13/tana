@@ -267,4 +267,60 @@
   margin-top: 30px;
   text-align: center;
 }
+
+.tools {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #166882;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.tools .toolsHeader {
+  font-size: 35px;
+  font-family: 'Open sans', sans-serif;
+  color: #fff;
+  margin-bottom: 65px;
+  font-weight: 300;
+}
+
+.tools .toolsCapsuleWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 1320px;
+}
+
+.tools .toolsCapsuleWrapper .devToolItem {
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  color: #000;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Open sans', sans-serif;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 /*# sourceMappingURL=Meet.module.css.map */

@@ -224,3 +224,44 @@
   text-align: center;
 }
 
+.tools {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #166882;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+
+  .toolsHeader{
+    font-size: 35px;
+    font-family: 'Open sans', sans-serif;
+    color: #fff;
+    margin-bottom: 65px;
+    font-weight: 300;
+  }
+
+  .toolsCapsuleWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1320px;
+  
+    .devToolItem {
+      padding: 10px;
+      border: 2px solid #fff;
+      border-radius: 15px;
+      color: #000;
+      background-color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      font-family: 'Open sans', sans-serif;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+  }
+}
+
+
+

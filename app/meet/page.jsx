@@ -6,7 +6,7 @@ import cornerImage from "../assets/Ellipse711.png";
 import midImage from "../assets/Ellipse712.png";
 import Link from 'next/link';
 import Image from 'next/image'
-import { featuredProfiles } from '../data/data';
+import { featuredProfiles, devTools, cards } from '../data/data';
 
 const page = () => {
   return (
@@ -86,6 +86,36 @@ const page = () => {
           }
         </div>
       </div>
+      <div className={style.tools}>
+        <h2 className={style.toolsHeader}>50+ tools and counting</h2>
+        <div className={style.toolsCapsuleWrapper}>
+          {
+            devTools.map((tool, index) => (
+              <div className={style.devToolItem} key={index}>{tool}</div>
+            ))
+          }
+        </div>
+      </div>
+      <div className={styles.happy}>
+          <h3 className={styles.happyTitle}>You could be this happy</h3>
+          <div className={styles.happyCard}>
+            {
+              cards.map((item, index) => (
+
+                <div key={index} className={styles.cardBox}>
+                  <Image src={item.img} className={styles.image} />
+                  <p className={styles.content}>{item.content}</p>
+                  <div className={styles.photoCutOut}></div>
+                  <Image src={item.img2} className={styles.quotes} />
+                  <div className={styles.credentials}>
+                    <p className={styles.name}>{item.managerName}</p>
+                    <p className={styles.position}>{item.position}</p>
+                  </div>
+                </div>
+              ))
+            }
+          </div>
+          </div>
     </main>
   )
 }
