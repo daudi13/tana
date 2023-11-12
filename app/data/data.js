@@ -17,6 +17,10 @@ import card3 from "../assets/4117.png"
 import quote1 from "../assets/quote1.png"
 import quote2 from "../assets/quote2.png"
 import quote3 from "../assets/quote3.png"
+import backgroundBlue from "../assets/BackgroundBlue.png"
+import backgroundYellow from "../assets/BackgroundYellow.png"
+import mathew from "../assets/mathew.png"
+import rose from "../assets/rose.png"
 
 
 export const data = [
@@ -100,4 +104,33 @@ export const cards = [
     managerName: "Johanna Strutzenberger",
     position: "Head of Engineering, LEVY Health",
   },
+]
+
+export const featuredProfiles = [
+  {
+    name: "Mathew",
+    job: "QA Engineer",
+    education: "BSc in Information Technology",
+    companyHq: "San Francisco, USA",
+    hobbies: "Music, Hiking",
+    img: mathew,
+    techSkills: ["Python", "Java", "C++", "JavaScript", "React", "Node.js", "HTML", "CSS", "SQL", "MongoDB", "Git", "AWS"],
+    profile: "Mathew is a QA Engineer with 2 years of experience in the field. He has a BSc in Computer Science and is currently working as a QA Engineer at a startup in San Francisco. He is looking for a new challenge and is open to relocation.",
+    card: backgroundBlue,
+    findLink: "",
+    fontColorwhite: true 
+  },
+  {
+    name: "Rose",
+    job: "Software Engineer",
+    education: "BSc in Computer Science",
+    companyHq: "Bangalore, India",
+    hobbies: "Biking, Hiking, camping",
+    img: rose,
+    techSkills: ["Python", "Java", "C++", "JavaScript", "React", "Node.js", "HTML", "CSS", "SQL", "MongoDB", "Git", "AWS"],
+    profile: "Rose is a Software Engineer with 2 years of experience in the field. She has a BSc in Computer Science and is currently working as a Software Engineer at a startup in Bangalore. She is looking for a new challenge and is open to relocation.",
+    card: backgroundYellow,
+    findLink: "",
+    fontColorwhite: false
+  }
 ]

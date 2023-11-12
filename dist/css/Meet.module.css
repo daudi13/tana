@@ -1,1 +1,270 @@
-/* No CSS *//*# sourceMappingURL=Meet.module.css.map */
+.heroSection {
+  background-color: #f3fafc;
+  height: 600px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.heroSection .heroTextSection {
+  padding-left: 290px;
+}
+
+.heroSection .heroTextSection .heroTextHeader {
+  font-family: 'Open sans', sans-serif;
+  font-weight: bolder;
+  font-size: 48px;
+  color: #166882;
+  line-height: 55.2px;
+}
+
+.heroSection .heroTextSection .heroTextDesc {
+  margin-top: 40px;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000;
+  line-height: 29px;
+}
+
+.heroSection .heroImage {
+  width: 894.35px;
+  height: auto;
+}
+
+.heroSection .heroCornerImage {
+  position: absolute;
+  bottom: -150px;
+  right: 0;
+}
+
+.meetOurTeam {
+  background-color: #ffff;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  position: relative;
+}
+
+.meetOurTeam .tagLine {
+  text-align: center;
+}
+
+.meetOurTeam .meetOurTeamMidImage {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.featuredSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #F3FAFC;
+  padding-top: 91px;
+  padding-bottom: 161px;
+}
+
+.featuredSection .featuredSectionHeader {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: 'Open sans', sans-serif;
+  color: #262543;
+  margin-bottom: 70px;
+}
+
+.featuredSection .featuredSectionColumn > * + * {
+  margin-top: 120px;
+}
+
+.featuredSection .featuredWrapper {
+  position: relative;
+  width: 930px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.featuredSection .featuredWrapper .featuredCard {
+  width: 100%;
+  height: auto;
+}
+
+.featuredSection .featuredWrapper .featuredDesc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10000;
+  width: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  gap: 30px;
+}
+
+.featuredSection .featuredWrapper .featuredDesc .featuredImageBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 15px;
+}
+
+.featuredSection .featuredWrapper .featuredDesc .featuredImageBox .featuredUserName {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Open sans', sans-serif;
+  color: #ffff;
+}
+
+.featuredSection .featuredWrapper .featuredDesc .featuredImageBox .featuredJobTitle {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Open sans', sans-serif;
+  color: #ffff;
+}
+
+.featuredSection .featuredWrapper .featuredDesc .featuredImageBox .userProfile {
+  width: 180px;
+  height: 180px;
+  border-radius: 90px;
+  margin-bottom: 45px;
+}
+
+.featuredSection .featuredWrapper .featuredDesc .featuredUserProfile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 20px;
+}
+
+.featuredSection .featuredWrapper .featuredDesc .featuredUserProfile .featuredUserProfileTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.featuredSection .featuredWrapper .featuredDesc .featuredUserProfile .featuredUserProfileTop .featuredUserProfileLeft > * + * {
+  margin-top: 30px;
+}
+
+.featuredSection .profileKey {
+  color: #ffff;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Open sans', sans-serif;
+}
+
+.featuredSection .profileValue {
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: 'Open sans', sans-serif;
+  color: #fff;
+}
+
+.featuredSection .featuredValue {
+  font-size: 17px;
+  font-weight: 400;
+  font-family: 'Open sans', sans-serif;
+  color: #fff;
+}
+
+.featuredProfileRight {
+  width: 50%;
+}
+
+.featuredProfileRight .techCapsules {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.featuredProfileRight .techCapsules .featuredButtonSkill {
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  color: #000;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Open sans', sans-serif;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.learnBtn {
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: 2px solid #090b0e;
+  text-decoration: none;
+  font-size: 20px;
+  color: #090b0e;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 30px;
+  text-align: center;
+}
+/*# sourceMappingURL=Meet.module.css.map */

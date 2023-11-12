@@ -1,0 +1,226 @@
+.heroSection {
+  background-color: #f3fafc;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+
+  .heroTextSection {
+    padding-left: 290px;
+
+    .heroTextHeader {
+      font-family: 'Open sans', sans-serif;
+      font-weight: bolder;
+      font-size: 48px;
+      color: #166882;
+      line-height: 55.2px;
+    }
+
+    .heroTextDesc {
+      margin-top: 40px;
+      font-family: 'Open sans', sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      color: #000;
+      line-height: 29px;
+    }
+  }
+
+  .heroImage {
+    width: 894.35px;
+    height: auto;
+  }
+
+  .heroCornerImage {
+    position: absolute;
+    bottom: -150px;
+    right: 0;
+  }
+}
+
+.meetOurTeam {
+  background-color: #ffff;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  position: relative;
+
+  .tagLine{
+    text-align: center;
+  }
+
+  .meetOurTeamMidImage {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.featuredSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #F3FAFC;
+  padding-top: 91px;
+  padding-bottom: 161px;
+
+  .featuredSectionHeader{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Open sans', sans-serif;
+    color: #262543;
+    margin-bottom: 70px;
+  }
+
+  .featuredSectionColumn {
+    & > * + * {
+      margin-top: 120px;
+    }
+  }
+
+  .featuredWrapper {
+    position: relative;
+    width: 930px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .featuredCard {
+      width: 100%;
+      height: auto;
+      
+    }
+  
+    .featuredDesc {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 10000;
+      width: 900px;
+      display: flex;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      gap: 30px;
+
+      .featuredImageBox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 15px;
+        
+
+        .featuredUserName {
+          font-size: 20px;
+          font-weight: 600;
+          font-family: 'Open sans', sans-serif;
+          color: #ffff;
+        }
+
+        .featuredJobTitle {
+          font-size: 16px;
+          font-weight: 400;
+          font-family: 'Open sans', sans-serif;
+          color: #ffff;
+        }
+
+        .userProfile {
+          width: 180px;
+          height: 180px;
+          border-radius: 90px;
+          margin-bottom: 45px;
+        }
+      }
+
+      .featuredUserProfile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+
+        .featuredUserProfileTop{
+          display: flex;
+          justify-content: space-between;
+
+          .featuredUserProfileLeft {
+
+            & > * + * {
+              margin-top: 30px;
+            }
+
+          }
+        }
+        
+      }
+    }
+    
+  }
+  .profileKey {
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Open sans', sans-serif;
+  }
+
+  .profileValue {
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Open sans', sans-serif;
+    color: #fff;
+  }
+
+  .featuredValue {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Open sans', sans-serif;
+    color: #fff;
+  }
+
+}
+
+.featuredProfileRight {
+  width: 50%;
+
+  .techCapsules {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    
+
+    .featuredButtonSkill {
+      padding: 10px;
+      border: 2px solid #fff;
+      border-radius: 15px;
+      color: #000;
+      background-color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      font-family: 'Open sans', sans-serif;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+  }
+}
+
+.learnBtn {
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: 2px solid #090b0e;
+  text-decoration: none;
+  font-size: 20px;
+  color: #090b0e;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 30px;
+  text-align: center;
+}
+
