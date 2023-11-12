@@ -4,6 +4,7 @@ import networkImage from "../assets/network.png"
 import group101 from "../assets/Group113.png"
 import cornerImage from "../assets/Ellipse711.png";
 import midImage from "../assets/Ellipse712.png";
+import group113 from "../assets/Group111.png"
 import Link from 'next/link';
 import Image from 'next/image'
 import { featuredProfiles, devTools, cards } from '../data/data';
@@ -96,8 +97,8 @@ const page = () => {
           }
         </div>
       </div>
-      <div className={styles.happy}>
-          <h3 className={styles.happyTitle}>You could be this happy</h3>
+      <div style={{backgroundColor: "#F3FAFC",margin: 0, paddingTop: "5rem", paddingBottom: "5rem"}} className={styles.happy}>
+          <h3 className={styles.happyTitle}>What our clients have to say</h3>
           <div className={styles.happyCard}>
             {
               cards.map((item, index) => (
@@ -115,7 +116,17 @@ const page = () => {
               ))
             }
           </div>
-          </div>
+      </div>
+      <div className={style.preFooterSection}>
+        <div className={style.preFooterSectionHero}>
+          <Image src={group113} alt="vectors" />
+          <h3 className={style.preFooterHeroHeader}>
+            Build the team <br/> you've always wanted
+          </h3>
+
+          <Link href="" className={style.preFooterLinkBtn}>Get in touch</Link>
+        </div>
+      </div>
     </main>
   )
 }

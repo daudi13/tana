@@ -263,5 +263,48 @@
   }
 }
 
+.preFooterSection {
+  background-image: url("../assets/morillo.png");
+  height: 800px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+
+  .preFooterSectionHero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(6px);
+    width: 35%;
+    height: 100%;
+    gap: 60px;
+
+    .preFooterHeroHeader{
+      font-family: 'Open sans', sans-serif;
+      font-size: 36px;
+      font-weight: 700;
+      color: #000;
+    }
+
+    .preFooterLinkBtn {
+      align-self: flex-start;
+      padding: 12px 20px;
+      text-decoration: none;
+      color: #fff;
+      border-radius: 30px;
+      font-size: 20px;
+      font-family: 'Open sans', sans-serif;
+      font-weight: 700;
+      background-color: #0E9AC0;
+    }
+  }
+}
+
+
 
 
