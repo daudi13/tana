@@ -2,7 +2,8 @@
 
 .footerWrapper {
   background-color:#F3FAFC;
-  height: 450px;
+  height: 100%;
+  padding-top: 8rem ;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,6 +86,47 @@
               color: #166882;
               margin-left: 10px;
             }
+          }
+        }
+      }
+
+    }
+    .footerBottomSection {
+      margin-top: 5rem;
+      margin-bottom: 2rem;
+      justify-self: flex-end;
+
+      .footerBottomSocials {
+        margin-bottom: 30px;
+
+        & > * + * {
+          margin-left: 24px;
+        }
+
+        .footerBottomSocialLinks {
+          font-size: 32px;
+          color: #1DA1F2;
+        }
+      }
+    }
+
+    .footerBottomSectionLinks {
+      .sectionLinks {
+        list-style: none;
+        display: flex;
+
+        & > * + * {
+          margin-left: 80px;
+        }
+
+        .sectionLink {
+
+          .linkItem {
+            text-decoration: none;
+            font-size: 16px;
+            color: #262f43;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
           }
         }
       }

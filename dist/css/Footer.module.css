@@ -1,0 +1,159 @@
+.footerWrapper {
+  background-color: #F3FAFC;
+  height: 100%;
+  padding-top: 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footerWrapper .footerContainer {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footerWrapper .footerContainer .footerImage {
+  width: 100px;
+  height: 31.76px;
+  margin-bottom: 30px;
+}
+
+.footerWrapper .footerContainer .footerMidLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footerWrapper .footerContainer .footerMidLinks .footerLinks {
+  list-style: none;
+}
+
+.footerWrapper .footerContainer .footerMidLinks .footerLinks .footerLink > * + * {
+  margin-bottom: 11px;
+}
+
+.footerWrapper .footerContainer .footerMidLinks .footerLinks .footerLink .linkItem {
+  text-decoration: none;
+  color: #262F43;
+  font-family: 'Open sans';
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.footerWrapper .footerContainer .footerMidLinks .footerFormSection {
+  justify-self: flex-end;
+}
+
+.footerWrapper .footerContainer .footerMidLinks .footerFormSection .footerFormTitle {
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #166882;
+  margin-bottom: 30px;
+}
+
+.footerWrapper .footerContainer .footerMidLinks .footerFormSection .footerForm .footerFormInputSec {
+  border: 2px solid #166882;
+  padding: 10.5px 21px;
+  border-radius: 20px;
+}
+
+.footerWrapper .footerContainer .footerMidLinks .footerFormSection .footerForm .footerFormInputSec .inputBox {
+  border: none;
+  padding: 5px;
+  background-color: transparent;
+  font-size: 17px;
+  color: #262F43;
+}
+
+.footerWrapper .footerContainer .footerMidLinks .footerFormSection .footerForm .footerFormInputSec .inputBox:focus {
+  outline: none;
+}
+
+.footerWrapper .footerContainer .footerMidLinks .footerFormSection .footerForm .footerFormInputSec .inputBox::-webkit-input-placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.footerWrapper .footerContainer .footerMidLinks .footerFormSection .footerForm .footerFormInputSec .inputBox:-ms-input-placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.footerWrapper .footerContainer .footerMidLinks .footerFormSection .footerForm .footerFormInputSec .inputBox::-ms-input-placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.footerWrapper .footerContainer .footerMidLinks .footerFormSection .footerForm .footerFormInputSec .inputBox::placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.footerWrapper .footerContainer .footerMidLinks .footerFormSection .footerForm .footerFormInputSec .footerFormSubmitBtn {
+  background-color: transparent;
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  color: #166882;
+  margin-left: 10px;
+}
+
+.footerWrapper .footerContainer .footerBottomSection {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  justify-self: flex-end;
+}
+
+.footerWrapper .footerContainer .footerBottomSection .footerBottomSocials {
+  margin-bottom: 30px;
+}
+
+.footerWrapper .footerContainer .footerBottomSection .footerBottomSocials > * + * {
+  margin-left: 24px;
+}
+
+.footerWrapper .footerContainer .footerBottomSection .footerBottomSocials .footerBottomSocialLinks {
+  font-size: 32px;
+  color: #1DA1F2;
+}
+
+.footerWrapper .footerContainer .footerBottomSectionLinks .sectionLinks {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footerWrapper .footerContainer .footerBottomSectionLinks .sectionLinks > * + * {
+  margin-left: 80px;
+}
+
+.footerWrapper .footerContainer .footerBottomSectionLinks .sectionLinks .sectionLink .linkItem {
+  text-decoration: none;
+  font-size: 16px;
+  color: #262f43;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+/*# sourceMappingURL=Footer.module.css.map */
