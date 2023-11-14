@@ -21,7 +21,15 @@ import backgroundBlue from "../assets/BackgroundBlue.png"
 import backgroundYellow from "../assets/BackgroundYellow.png"
 import mathew from "../assets/mathew.png"
 import rose from "../assets/rose.png"
-
+import group201 from "../assets/Group107.png"
+import rectangle201 from "../assets/Rectangle203.png"
+import ellipse201 from "../assets/Ellipse689.png"
+import group202 from "../assets/group202.png"
+import rectangle202 from "../assets/Rectangle202.png"
+import ellipse202 from "../assets/Ellipse202.png"
+import group203 from "../assets/Group203.png"
+import rectangle203 from "../assets/Rectangle203.png"
+import ellipse203 from "../assets/Ellipse203.png"
 
 export const data = [
   image28,
@@ -187,4 +195,38 @@ export const devTools = [
   "SonarQube",
   "Gradle",
   "Apache Maven",
+]
+
+
+export const aboutUs = [
+  {
+    id: 1,
+    title: "QA engineers",
+    content: ["Ensure high-quality software through functional, usability, performance, API, regression, and exploratory testing", "Collaborate with engineers and PMs to define requirements, identify bugs, and track resolution", "Continually improve QA processes for greater efficiency and efficacy, including via QA automation"],
+    getInTouchLink: "",
+    img1: group201,
+    primaryImage: rectangle201,
+    absoluteImage: ellipse201,
+    right: true
+  },
+  {
+    id: 2,
+    title: "Technical support engineers",
+    content: ["Support customers in implementing, learning, and troubleshooting software through phone, email, and chat", "Educate customers via product demos, webinars, user guides, and FAQs", "Coordinate with internal teams to ensure timely resolution, customer satisfaction, and product improvements"],
+    getInTouchLink: "",
+    img1: group202,
+    primaryImage: rectangle202,
+    absoluteImage: ellipse202,
+    right: false
+  },
+  {
+    id: 3,
+    title: "Data analysts",
+    content: ["Work with cross-functional teams to understand business objectives, identify key metrics, and foster data-driven decision-making ", "Generate insights on market trends, business performance, risk assessment, revenue optimisation, etc ", "Communicate findings through reports, dashboards, and data visualizations"],
+    getInTouchLink: "",
+    img1: group203,
+    primaryImage: rectangle203,
+    absoluteImage: ellipse203,
+    right: true
+  },
 ]

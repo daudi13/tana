@@ -1,1 +1,256 @@
-/* No CSS *//*# sourceMappingURL=About.module.css.map */
+.heroSection {
+  background-color: #f3fafc;
+  height: 600px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  padding-right: 16rem;
+}
+
+.heroSection .heroTextSection {
+  padding-left: 290px;
+}
+
+.heroSection .heroTextSection .heroTextHeader {
+  font-family: 'Open sans', sans-serif;
+  font-weight: bolder;
+  font-size: 48px;
+  color: #166882;
+  line-height: 55.2px;
+}
+
+.heroSection .heroTextSection .heroTextDesc {
+  margin-top: 40px;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000;
+  line-height: 29pxhhh;
+}
+
+.heroSection .heroImage {
+  width: 592px;
+  height: auto;
+}
+
+.heroSection .heroCornerImage {
+  position: absolute;
+  bottom: -150px;
+  right: 0;
+}
+
+.midSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 18rem;
+  margin: 12rem 0;
+}
+
+.midSection > * {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 77px;
+  position: relative;
+}
+
+.midSection > * .midSectionLeft {
+  width: 518px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.midSection > * .midSectionLeft .getInTouchLink {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: 2px solid #0E9AC0;
+  background-color: #0E9AC0;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.midSection > * .midSectionLeft .midSectionHeader {
+  font-family: 'Open sans', sans-serif;
+  font-weight: 500;
+  font-size: 37px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.midSection > * .midSectionLeft .midSectionList {
+  padding-left: 25px;
+}
+
+.midSection > * .midSectionLeft .midSectionList .midSectionListItem {
+  font-family: 'Open sans', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.midSection .midSectionItem {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.midSection .primaryImage {
+  position: relative;
+  z-index: 1000;
+}
+
+.midSection .topRightCorner {
+  position: absolute;
+  top: -80px;
+  right: -120px;
+  width: 298px;
+  height: 298px;
+}
+
+.midSection .topLeftCorner {
+  position: absolute;
+  top: -80px;
+  left: -120px;
+  width: 298px;
+  height: 298px;
+}
+
+.midSection .bottomRightCorner {
+  position: absolute;
+  bottom: -80px;
+  right: -120px;
+  width: 298px;
+  height: 298px;
+}
+
+.roleSection {
+  height: 756px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #166882;
+}
+
+.roleSection .roleSectionHeader {
+  font-family: 'Open sans', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 60px;
+}
+
+.roleSection .roleSectionLink {
+  padding: 12px 25px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Open sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.prefooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 851px;
+  width: 100%;
+}
+
+.prefooter .prefooterContainer {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.prefooter .prefooterContainer .prefooterDesc .prefooterHeader {
+  font-family: 'Open sans', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.prefooter .prefooterContainer .prefooterDesc .roleSectionLink {
+  padding: 12px 25px;
+  border: 2px solid #000;
+  border-radius: 30px;
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-decoration: none;
+  color: #000;
+  font-family: 'Open sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.prefooter .prefooterContainer .prefooterImage {
+  width: 663px;
+  height: auto;
+}
+/*# sourceMappingURL=About.module.css.map */

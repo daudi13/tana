@@ -1,0 +1,30 @@
+.mainWrapper {
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .innerWrapper{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+    .innerWrapperImage {
+      width: 900px;
+      height: auto;
+    }
+
+    .goBackBtn{
+      background-color: #0E9AC0;
+      color: #fff;
+      padding: 12px 20px;
+      text-decoration: none;
+      border-radius: 30px;
+      font-family: 'Open sans', sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      margin-top: 50px;
+    }
+  }
+}

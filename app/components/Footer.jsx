@@ -25,14 +25,14 @@ const Footer = () => {
         <div className={style.footerMidLinks}>
           <div style={{display: 'flex', gap: '200px'}}>
             <ul className={style.footerLinks}>
-              <li className={style.footerLink}><Link href="" className={style.linkItem}>Why Tana</Link></li>
-              <li className={style.footerLink}><Link href="" className={style.linkItem}>How it Works</Link></li>
-              <li className={style.footerLink}><Link href="" className={style.linkItem}>Meet our Talent</Link></li>
+              <li className={style.footerLink}><Link href="/why" className={style.linkItem}>Why Tana</Link></li>
+              <li className={style.footerLink}><Link href="/tana" className={style.linkItem}>How it Works</Link></li>
+              <li className={style.footerLink}><Link href="/meet" className={style.linkItem}>Meet our Talent</Link></li>
             </ul>
             <ul className={style.footerLinks}>
-              <li className={style.footerLink}><Link href="" className={style.linkItem}>About Us</Link></li>
-              <li className={style.footerLink}><Link href="" className={style.linkItem}>Contact</Link></li>
-              <li className={style.footerLink}><Link href="" className={style.linkItem}>For Talent</Link></li>
+              <li className={style.footerLink}><Link href="/about" className={style.linkItem}>About Us</Link></li>
+              <li className={style.footerLink}><Link href="/contact" className={style.linkItem}>Contact</Link></li>
+              <li className={style.footerLink}><Link href="/talent" className={style.linkItem}>For Talent</Link></li>
             </ul>
           </div>
 
@@ -60,9 +60,9 @@ const Footer = () => {
           <div className={style.footerBottomSectionLinks}>
             <ul className={style.sectionLinks}>
               <li className={style.sectionLink}><p className={style.linkItem}>© {year} Tana. All rights reserved</p></li>
-              <li className={style.sectionLink}><Link className={style.linkItem} href="">Privacy Policy</Link></li>
-              <li className={style.sectionLink}><Link className={style.linkItem} href="">Terms of Service</Link></li>
-              <li className={style.sectionLink}><Link className={style.linkItem}href="">Cookie Policy</Link></li>
+              <li className={style.sectionLink}><Link className={style.linkItem} href="/privacy">Privacy Policy</Link></li>
+              <li className={style.sectionLink}><Link className={style.linkItem} href="/footer">Terms of Service</Link></li>
+              <li className={style.sectionLink}><Link className={style.linkItem}href="/cookie">Cookie Policy</Link></li>
             </ul>
           </div>
         </div>

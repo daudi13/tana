@@ -1,1 +1,191 @@
-/* No CSS *//*# sourceMappingURL=Contact.module.css.map */
+.heroSection {
+  height: 704px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #F3FAFC;
+}
+
+.heroSection .personVector {
+  position: absolute;
+  top: 83px;
+  left: 214px;
+}
+
+.heroSection .quartVector {
+  position: absolute;
+  top: 409px;
+  left: 0;
+}
+
+.heroSection .rectVector {
+  position: absolute;
+  bottom: 112px;
+  left: 802px;
+}
+
+.heroSection .girlVector {
+  position: absolute;
+  right: 255px;
+  top: 213px;
+}
+
+.heroSection .circleVector {
+  position: absolute;
+  top: 39px;
+  right: 0;
+}
+
+.heroSection .heroText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heroSection .heroText .heroGroupVector {
+  margin-bottom: 30px;
+}
+
+.heroSection .heroText .heroHeader {
+  font-family: 'Open sans', sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: #166882;
+}
+
+.contactFormWrapper {
+  position: relative;
+  height: 800px;
+}
+
+.contactFormWrapper .contactForm {
+  padding: 63px 30px;
+  border-radius: 30px;
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  background-color: white;
+  -webkit-box-shadow: 3px 9px 18px 1px rgba(166, 166, 166, 0.75);
+          box-shadow: 3px 9px 18px 1px rgba(166, 166, 166, 0.75);
+}
+
+.contactFormWrapper .contactForm .contactFormColumnRight .contactFormHeader {
+  font-family: 'Open sans', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: #166882;
+  margin-bottom: 20px;
+}
+
+.contactFormWrapper .contactForm .contactFormColumnRight .underline {
+  height: 2px;
+  width: 60px;
+  background-color: #0E9AC0;
+  margin-bottom: 20px;
+}
+
+.contactFormWrapper .contactForm .contactFormColumnRight .mainForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+.contactFormWrapper .contactForm .contactFormColumnRight .mainForm .mainFormName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 26px;
+}
+
+.contactFormWrapper .contactForm .contactFormColumnRight .mainForm .mainFormName .inputBoxWrapper {
+  width: 50%;
+}
+
+.contactFormWrapper .contactForm .inputBoxWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5px;
+}
+
+.contactFormWrapper .contactForm .imagePeople {
+  width: 300px;
+  height: 376.34px;
+}
+
+.contactFormWrapper .contactForm .inputLabel {
+  font-family: 'Open sans', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #262F43;
+}
+
+.contactFormWrapper .contactForm .inputBox {
+  padding: 8px 20px;
+  border-radius: 10px;
+  border: 1.5px solid #0E9AC0;
+  width: 100%;
+}
+
+.contactFormWrapper .contactForm .inputBox:focus {
+  outline: none;
+}
+
+.contactFormWrapper .contactForm .textArea {
+  height: 190px;
+  padding: 8px 20px;
+  border-radius: 10px;
+  border: 1px solid #0E9AC0;
+  resize: none;
+}
+
+.contactFormWrapper .contactForm .textArea:focus {
+  outline: none;
+}
+
+.contactFormWrapper .contactForm .submitBtn {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  border: none;
+  background-color: #0E9AC0;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 30px;
+  font-family: 'Open sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=Contact.module.css.map */

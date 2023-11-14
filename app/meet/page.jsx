@@ -4,7 +4,7 @@ import networkImage from "../assets/network.png"
 import group101 from "../assets/Group113.png"
 import cornerImage from "../assets/Ellipse711.png";
 import midImage from "../assets/Ellipse712.png";
-import group113 from "../assets/Group111.png"
+import group113 from "../assets/Group111.png";
 import Link from 'next/link';
 import Image from 'next/image'
 import { featuredProfiles, devTools, cards } from '../data/data';
@@ -123,7 +123,6 @@ const page = () => {
           <h3 className={style.preFooterHeroHeader}>
             Build the team <br/> you've always wanted
           </h3>
-
           <Link href="" className={style.preFooterLinkBtn}>Get in touch</Link>
         </div>
       </div>

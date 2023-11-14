@@ -1,0 +1,157 @@
+.heroSection {
+  height: 704px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#F3FAFC;
+
+  .personVector{
+    position: absolute;
+    top: 83px;
+    left: 214px;
+  }
+  .quartVector{
+    position: absolute;
+    top: 409px;
+    left: 0;
+  }
+  .rectVector{
+    position: absolute;
+    bottom: 112px;
+    left: 802px;
+  }
+  .girlVector{
+    position: absolute;
+    right: 255px;
+    top: 213px;
+  }
+  .circleVector{
+    position: absolute;
+    top: 39px;
+    right: 0;
+  }
+
+  .heroText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .heroGroupVector {
+      margin-bottom: 30px;
+    }
+    .heroHeader {
+      font-family: 'Open sans', sans-serif;
+      font-size: 48px;
+      font-weight: 600;
+      color: #166882;
+    }
+  }
+}
+
+.contactFormWrapper {
+  position: relative;
+  height: 800px;
+  
+  .contactForm {
+    padding: 63px 30px;
+    border-radius: 30px;
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: white;
+    box-shadow: 3px 9px 18px 1px rgba(166,166,166,0.75);
+
+
+    .contactFormColumnRight {
+      .contactFormHeader {
+        font-family: 'Open sans', sans-serif;
+        font-size: 40px;
+        font-weight: 500;
+        color: #166882;
+        margin-bottom: 20px;
+      }
+
+      .underline{
+        height: 2px;
+        width: 60px;
+        background-color:#0E9AC0;
+        margin-bottom: 20px;
+      }
+
+      .mainForm{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .mainFormName{
+          display: flex;
+          gap: 26px;
+
+          .inputBoxWrapper{
+            width: 50%;
+          }
+
+        }
+      }
+    }
+
+    .inputBoxWrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+    .imagePeople{
+      width: 300px;
+      height: 376.34px;
+    }
+
+    .inputLabel{
+      font-family: 'Open sans', sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      color: #262F43;
+    }
+
+    .inputBox{
+      padding: 8px 20px;
+      border-radius: 10px;
+      border: 1.5px solid #0E9AC0;
+      width: 100%;
+
+      &:focus{
+        outline: none;
+      }
+    }
+
+    .textArea{
+      height: 190px;
+      padding: 8px 20px;
+      border-radius: 10px;
+      border: 1px solid #0E9AC0;
+      resize: none;
+
+      &:focus{
+        outline: none;
+      }
+    }
+
+    .submitBtn {
+      align-self: flex-start;
+      border: none;
+      background-color: #0E9AC0;
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: 30px;
+      font-family: 'Open sans', sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      margin-top: 30px;
+    }
+  }
+}
+

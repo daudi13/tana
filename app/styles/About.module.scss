@@ -1,0 +1,207 @@
+.heroSection {
+  background-color: #f3fafc;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding-right: 16rem;
+
+  .heroTextSection {
+    padding-left: 290px;
+
+    .heroTextHeader {
+      font-family: 'Open sans', sans-serif;
+      font-weight: bolder;
+      font-size: 48px;
+      color: #166882;
+      line-height: 55.2px;
+    }
+
+    .heroTextDesc {
+      margin-top: 40px;
+      font-family: 'Open sans', sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      color: #000;
+      line-height: 29pxhhh;
+    }
+  }
+
+  .heroImage {
+    width: 592px;
+    height: auto;
+  }
+
+  .heroCornerImage {
+    position: absolute;
+    bottom: -150px;
+    right: 0;
+  }
+}
+
+.midSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18rem;
+  margin: 12rem 0;
+  
+  
+  & > * {
+    display: flex;
+    align-items: center;
+    gap: 77px;
+    position: relative;
+
+      .midSectionLeft{
+        width: 518px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .getInTouchLink{
+          align-self: flex-start;
+          padding: 10px 25px;
+          border-radius: 30px;
+          border: 2px solid #0E9AC0;
+          background-color: #0E9AC0;
+          text-decoration: none;
+          font-size: 20px;
+          color: #fff;
+          font-weight: 700;
+          font-size: 20px;
+          font-family: 'Open Sans', sans-serif;
+          margin-top: 30px;
+          text-align: center;
+
+        }
+
+        .midSectionHeader{
+          font-family: 'Open sans', sans-serif;
+          font-weight: 500;
+          font-size: 37px;
+          margin-bottom: 30px;
+          margin-top: 30px;
+        }
+
+        .midSectionList {
+          padding-left: 25px;
+
+          .midSectionListItem {
+            font-family: 'Open sans', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+
+  .midSectionItem{
+    flex-direction: row-reverse;
+  }
+
+  .primaryImage {
+    position: relative;
+    z-index: 1000;
+  }
+
+  .topRightCorner {
+    position: absolute;
+    top: -80px;
+    right: -120px;
+    width: 298px;
+    height: 298px;
+  }
+
+  .topLeftCorner{
+    position: absolute;
+    top: -80px;
+    left: -120px;
+    width: 298px;
+    height: 298px;
+  }
+
+  .bottomRightCorner{
+    position: absolute;
+    bottom: -80px;
+    right: -120px;
+    width: 298px;
+    height: 298px;
+  }
+}
+
+.roleSection {
+  height: 756px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #166882;
+
+  .roleSectionHeader {
+    font-family: 'Open sans', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 60px;
+  }
+
+  .roleSectionLink {
+    padding: 12px 25px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    text-align: center;
+    align-self: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Open sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+
+.prefooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 851px;
+  width: 100%;
+
+  .prefooterContainer{
+    width:60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+  .prefooterDesc {
+    .prefooterHeader {
+      font-family: 'Open sans', sans-serif;
+      font-weight: 600;
+      font-size: 36px;
+      color: #000;
+      margin-top: 30px;
+      margin-bottom: 60px;
+    }
+
+    .roleSectionLink {
+      padding: 12px 25px;
+      border: 2px solid #000;
+      border-radius: 30px;
+      text-align: center;
+      align-self: center;
+      text-decoration: none;
+      color: #000;
+      font-family: 'Open sans', sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+    }
+  }
+
+    .prefooterImage {
+      width: 663px;
+      height: auto;
+    }
+  }
+}

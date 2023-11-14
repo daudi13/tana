@@ -14,7 +14,7 @@ const Navbar = () => {
           <li className={styles.menuItem}><Link className={styles.menuLinks} href="/">For Companes</Link></li>
           <li className={styles.menuItem}><Link className={styles.menuLinks} href="/meet">Meet our Talent</Link></li>
           <li className={styles.menuItem}><Link className={styles.menuLinks} href="/about">About us</Link></li>
-          <li className={`${styles.menuItem} ${styles.actionBtn}`}><Link className={`${styles.menuLinks} ${styles.menuAction}`} href="">Grow your team</Link></li>
+          <li className={`${styles.menuItem} ${styles.actionBtn}`}><Link className={`${styles.menuLinks} ${styles.menuAction}`} href="/grow">Grow your team</Link></li>
         </ul>
       </div>
     </div>
