@@ -1,4 +1,4 @@
-"use client"
+
 
 import Image from 'next/image'
 import Link from 'next/link'
@@ -14,17 +14,22 @@ import newGroup from "./assets/Group108.png";
 import Head from 'next/head';
 import { data, data2, cards } from './data/data'
 
-const archivo = Archivo({subsets: ['latin']})
+export const metadata = {
+  title: 'Welcome to tana',
+  description: "We connect global companies to brilliant team members based on the continent of Africa – the world’s fastest-growing workforce.Let us handle sourcing, vetting, and training, so you can focus on growing.",
+}
 
 
 export default function Home() {
   return (
     <>
       <Head>
-        <link
+        <title>welcome to tana</title>
+        {/* <link
           href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500&display=swap"
           rel="stylesheet"
-        />
+        /> */}
+        <link rel='icon' href="/favicon.ico" />
       </Head>
     <main className={styles.mainSection}>
       <div className={styles.heroSection}>

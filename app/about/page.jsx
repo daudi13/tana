@@ -8,6 +8,13 @@ import { aboutUs } from '../data/data';
 import Image from 'next/image';
 import Link from 'next/link';
 
+export const metadata = {
+  title: 'About Tana',
+  description: "Explore our expert services in QA engineering, technical support, and data analytics. Our QA engineers ensure high-quality software through rigorous testing, bug identification, and process automation. Technical support engineers provide hands-on assistance, product education, and efficient issue resolution via phone, email, and chat. Collaborate with our data analysts to gain valuable insights, drive data-driven decisions, and optimize business performance. Connect with us for top-tier talent in QA, technical support, and data analytics",
+  image: "../assets/HeroImageCluster.png",
+  type: "website"
+}
+
 
 const AboutPage = () => {
   return (
