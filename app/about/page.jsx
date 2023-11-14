@@ -55,7 +55,7 @@ const AboutPage = () => {
       </div>
       <div className={style.roleSection}>
         <h2 className={style.roleSectionHeader}>Looking for another role?</h2>
-        <Link href="/" className={style.roleSectionLink}>Let's chat</Link>
+        <Link href="/" className={style.roleSectionLink}>Let&apos;s chat</Link>
       </div>
       <div className={style.prefooter}>
         <div className={style.prefooterContainer}>
