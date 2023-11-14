@@ -44,7 +44,7 @@ export default function Home() {
         </div>
         <div className={styles.valuePreposition}>
           <h3 className={styles.valuePrepostionTitle}>Reach new heights with incredible team members based in Africa –<br /> <span className={styles.mainText}>the world’s fastest-growing workforce</span></h3>
-          <Image src={vector} className={styles.vectorSmile} />
+          <Image src={vector} className={styles.vectorSmile} alt="vector"/>
           <div className={styles.valuePrepositionIcons}>
             <div className={styles.valueIconBox}>
               <div className={`${styles.iconBox} ${styles.iconBlue}`}>
@@ -87,13 +87,13 @@ export default function Home() {
           <div className={styles.logos}>
             {
               data.map((img, index) => (
-                <Image src={img} key={index} className={styles.logoImg} />
+                <Image src={img} key={index} className={styles.logoImg} alt="img" />
               ))
             }
           </div>
         </div>
         <div className={styles.whyUs}>
-          <h3 className={styles.whyUsTitleMain}>Why we're better</h3>
+          <h3 className={styles.whyUsTitleMain}>Why we&pos;re better</h3>
           {
             data2.map((item, index) => (
               <div key={index} className={`${styles.whyUsBox} ${item.right && styles.whyUsRight}`}>
@@ -103,7 +103,7 @@ export default function Home() {
                   <p className={styles.whyUsText}>{item.content}</p>
                   <Link href={item.hrefLink} className={`${item.activeBtn ? styles.active : styles.btn}`}>{item.linkName}</Link>
                 </div>
-                <Image src={item.img} className={styles.imageCover} />
+                <Image src={item.img} className={styles.imageCover} alt='item' />
               </div>
             ))
           }
@@ -115,10 +115,10 @@ export default function Home() {
               cards.map((item, index) => (
 
                 <div key={index} className={styles.cardBox}>
-                  <Image src={item.img} className={styles.image} />
+                  <Image src={item.img} className={styles.image} alt="item"/>
                   <p className={styles.content}>{item.content}</p>
                   <div className={styles.photoCutOut}></div>
-                  <Image src={item.img2} className={styles.quotes} />
+                  <Image src={item.img2} className={styles.quotes} alt="item"/>
                   <div className={styles.credentials}>
                     <p className={styles.name}>{item.managerName}</p>
                     <p className={styles.position}>{item.position}</p>
@@ -130,7 +130,7 @@ export default function Home() {
           </div>
         <div className={styles.preFooter}>
           <div className={styles.preFooterHero}>
-            <Image src={newGroup} />
+            <Image src={newGroup} alt="new"/>
             <h3 className={styles.preFooterTitle}>Be a part of the movement</h3>
             <p className={styles.preFooterText}>Global equity starts with giving talented young people everywhere the chance to build meaningful careers.</p>
             <Link href="" className={styles.joinBtn}>Join Us</Link>

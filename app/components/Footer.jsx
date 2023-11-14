@@ -21,7 +21,7 @@ const Footer = () => {
   return (
     <div className={style.footerWrapper}>
       <div className={style.footerContainer}>
-        <Image src={logo} className={style.footerImage} sizes={23} />
+        <Image src={logo} className={style.footerImage} alt="logo" sizes={23} />
         <div className={style.footerMidLinks}>
           <div style={{display: 'flex', gap: '200px'}}>
             <ul className={style.footerLinks}>
@@ -54,8 +54,8 @@ const Footer = () => {
         </div>
         <div className={style.footerBottomSection}>
           <div className={style.footerBottomSocials}>
-            <Link href="" className={style.footerBottomSocialLinks}><FaLinkedin/></Link>
-            <Link href="" className={style.footerBottomSocialLinks}><FaTwitter /></Link>
+            <Link href="/" className={style.footerBottomSocialLinks}><FaLinkedin/></Link>
+            <Link href="/" className={style.footerBottomSocialLinks}><FaTwitter /></Link>
           </div>
           <div className={style.footerBottomSectionLinks}>
             <ul className={style.sectionLinks}>

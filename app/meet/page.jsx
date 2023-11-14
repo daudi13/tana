@@ -22,7 +22,7 @@ const page = () => {
     <main>
       <div className={style.heroSection}>
         <div className={style.heroTextSection}>
-          <Image src={group101} />
+          <Image src={group101} alt="group101"/>
           <h1 className={style.heroTextHeader}>
             Smart. Driven.<br/>Dedicated.
           </h1>
@@ -30,23 +30,23 @@ const page = () => {
             Ready to go in 100+ technologies and ready<br/> to throw memes with the best of them
           </p>
         </div>
-        <Image src={networkImage} className={style.heroImage} />
-        <Image src={cornerImage} className={style.heroCornerImage} />
+        <Image src={networkImage} alt="networkImage"className={style.heroImage} />
+        <Image src={cornerImage} alt="cornerImage" className={style.heroCornerImage} />
       </div>
       <div style={{background:"white"}} className={`${styles.meetOurTeam} ${style.meetOurTeam}`}>
           <h2 className={styles.meetOurTeamTitle}>Meet our Talent</h2>
           <iframe src="https://player.vimeo.com/video/835781373?h=b24e1c23b9" width="2120" height="515"  frameborder="0" allow="autoplay; picture-in-picture" allowfullscreen></iframe>
           <p className={`${styles.meetOurTeamText} ${style.tagLine}`}>At Tana, we believe your skills and your character define you —<br/>not where in the world you were born</p>
-        <Link href="" className={styles.learnBtn}>Get to know our mission</Link>
-        <Image src={midImage} className={style.meetOurTeamMidImage} />
+        <Link href="/" className={styles.learnBtn}>Get to know our mission</Link>
+        <Image src={midImage} alt="midIMage" className={style.meetOurTeamMidImage} />
       </div>
       <div className={style.featuredSection}>
           <h2 className={style.featuredSectionHeader}>Featured profiles</h2>
         <div className={style.featuredSectionColumn}>
           {
             featuredProfiles.map((item, index) => (
-              <div style={{ display: "flex", flexDirection: "column", alignItems: "center"}}>
-              <div className={style.featuredWrapper} key={index}>
+              <div style={{ display: "flex", flexDirection: "column", alignItems: "center"}} key={index}>
+              <div className={style.featuredWrapper}>
                 <Image src={item.card} alt="box card" className={style.featuredCard} />
                 <div className={style.featuredDesc}>
                   <div className={style.featuredImageBox}>
@@ -112,10 +112,10 @@ const page = () => {
               cards.map((item, index) => (
 
                 <div key={index} className={styles.cardBox}>
-                  <Image src={item.img} className={styles.image} />
+                  <Image src={item.img} className={styles.image} alt="item" />
                   <p className={styles.content}>{item.content}</p>
                   <div className={styles.photoCutOut}></div>
-                  <Image src={item.img2} className={styles.quotes} />
+                  <Image src={item.img2} className={styles.quotes} alt="item" />
                   <div className={styles.credentials}>
                     <p className={styles.name}>{item.managerName}</p>
                     <p className={styles.position}>{item.position}</p>
@@ -129,9 +129,9 @@ const page = () => {
         <div className={style.preFooterSectionHero}>
           <Image src={group113} alt="vectors" />
           <h3 className={style.preFooterHeroHeader}>
-            Build the team <br/> you've always wanted
+            Build the team <br/> you&apos;ve always wanted
           </h3>
-          <Link href="" className={style.preFooterLinkBtn}>Get in touch</Link>
+          <Link href="/contact" className={style.preFooterLinkBtn}>Get in touch</Link>
         </div>
       </div>
     </main>

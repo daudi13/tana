@@ -21,7 +21,7 @@ const AboutPage = () => {
     <main>
       <div className={style.heroSection}>
         <div className={style.heroTextSection}>
-          <Image src={group119} />
+          <Image src={group119} alt="group" />
           <h1 className={style.heroTextHeader}>
             The swiss Army Knives<br/>of talent
           </h1>
@@ -29,7 +29,7 @@ const AboutPage = () => {
             Versatile young proffessionals who are<br/> up for every challenge
           </p>
         </div>
-        <Image src={manImage} className={style.heroImage} />
+        <Image src={manImage} alt="manbackdrop" className={style.heroImage} />
       </div>
       <div className={style.midSection}>
         {
@@ -55,14 +55,14 @@ const AboutPage = () => {
       </div>
       <div className={style.roleSection}>
         <h2 className={style.roleSectionHeader}>Looking for another role?</h2>
-        <Link href="" className={style.roleSectionLink}>Let's chat</Link>
+        <Link href="/" className={style.roleSectionLink}>Let's chat</Link>
       </div>
       <div className={style.prefooter}>
         <div className={style.prefooterContainer}>
           <div className={style.prefooterDesc}>
-            <Image src={group09} />
+            <Image src={group09} alt="group"/>
             <h2 className={style.prefooterHeader}>eLogii <br />achieves<br />100% customer<br />satisfaction</h2>
-            <Link href="" className={style.roleSectionLink}>See client stories</Link>
+            <Link href="/" className={style.roleSectionLink}>See client stories</Link>
           </div>
           <Image src={prefooterImg} alt="prefooter" className={style.prefooterImage} />
         </div>

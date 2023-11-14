@@ -7,7 +7,7 @@ export default function NotFound() {
   return (
     <main className={style.mainWrapper}>
       <div className={style.innerWrapper}>
-        <Image src={vector404} className={style.innerWrapperImage} />
+        <Image src={vector404} className={style.innerWrapperImage} alt="404"/>
         <Link href="/" className={style.goBackBtn}>Return home</Link>
       </div>
     </main>

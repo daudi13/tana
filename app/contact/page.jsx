@@ -28,14 +28,14 @@ const ContactPage = () => {
         <Image className={style.girlVector} src={girl} alt="header vectors"/>
         <Image className={style.circleVector} src={circle} alt="header vectors" />
         <div className={style.heroText}>
-          <Image src={group112} className={style.heroGroupVector} />
+          <Image src={group112} alt="group12" className={style.heroGroupVector} />
           <h2 className={style.heroHeader}>Contact us</h2>
         </div>
       </div>
       <div className={style.contactFormWrapper}>
         <form className={style.contactForm}>
           <div className={style.contactFormColumnRight}>
-            <h2 className={style.contactFormHeader}>We'd love to hear from you!</h2>
+            <h2 className={style.contactFormHeader}>We&apos;d love to hear from you!</h2>
             <div className={style.underline} />
             <div className={style.mainForm}>
               <div className={style.mainFormName}>
@@ -83,7 +83,7 @@ const ContactPage = () => {
               <button type='submit' className={style.submitBtn}>Submit</button>
             </div>
           </div>
-          <Image src={imagePeople} className={style.imagePeople} />
+          <Image src={imagePeople} alt="imagePeople" className={style.imagePeople} />
         </form>
       </div>
     </main>
