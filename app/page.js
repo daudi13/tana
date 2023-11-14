@@ -93,7 +93,7 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.whyUs}>
-          <h3 className={styles.whyUsTitleMain}>Why we&pos;re better</h3>
+          <h3 className={styles.whyUsTitleMain}>Why we&apos;re better</h3>
           {
             data2.map((item, index) => (
               <div key={index} className={`${styles.whyUsBox} ${item.right && styles.whyUsRight}`}>
