@@ -15,7 +15,7 @@ export const metadata = {
   title: 'Tana | Our Talent',
   description: "Elevate your business with our premier talent network! Connect with skilled QA engineers, customer technical support specialists, and data analytics professionals through our platform. Streamline your operations, enhance product quality, and gain valuable insights with our curated pool of experts. Explore a seamless hiring experience and elevate your company's performance with our comprehensive workforce solutions. Partner with us for unparalleled access to top-tier professionals in QA, customer support, and data analytics. Unlock the potential of your business with our talent-driven solutions today.",
   type: "website",
-  images: "https://tanatech.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnetwork.7383fd4d.png&w=1080&q=75",
+  image: "https://tanatech.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnetwork.7383fd4d.png&w=1080&q=75",
   url: "https://tanatech.vercel.app/meet",
 }
 
