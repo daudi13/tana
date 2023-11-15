@@ -78,7 +78,7 @@ export default function Home() {
         </div>
         <div className={styles.meetOurTeam}>
           <h2 className={styles.meetOurTeamTitle}>Meet our Team</h2>
-          <iframe src="https://player.vimeo.com/video/835781373?h=b24e1c23b9" width="2120" height="515"  frameborder="0" allow="autoplay; picture-in-picture" allowfullscreen></iframe>
+          <iframe src="https://player.vimeo.com/video/835781373?h=b24e1c23b9" width="2120" height="515"  frameBorder="0" allow="autoplay; picture-in-picture" allowFullScreen></iframe>
           <p className={styles.meetOurTeamText}>Curious to see who could be joining the slack on Monday?</p>
           <Link href="" className={styles.learnBtn}>Learn more here</Link>
         </div>
