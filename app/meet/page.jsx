@@ -13,6 +13,7 @@ export const metadata = {
   title: 'Tana | Our Talent',
   description: "Elevate your business with our premier talent network! Connect with skilled QA engineers, customer technical support specialists, and data analytics professionals through our platform. Streamline your operations, enhance product quality, and gain valuable insights with our curated pool of experts. Explore a seamless hiring experience and elevate your company's performance with our comprehensive workforce solutions. Partner with us for unparalleled access to top-tier professionals in QA, customer support, and data analytics. Unlock the potential of your business with our talent-driven solutions today.",
   image: "../assets/HeroImageCluster.png",
+  url: "https://tanatech.vercel.app/meet",
   type: "website"
 }
 
@@ -35,7 +36,7 @@ const page = () => {
       </div>
       <div style={{background:"white"}} className={`${styles.meetOurTeam} ${style.meetOurTeam}`}>
           <h2 className={styles.meetOurTeamTitle}>Meet our Talent</h2>
-          <iframe src="https://player.vimeo.com/video/835781373?h=b24e1c23b9" width="2120" height="515"  frameborder="0" allow="autoplay; picture-in-picture" allowfullscreen></iframe>
+          <iframe src="https://player.vimeo.com/video/835781373?h=b24e1c23b9" width="2120" height="515"  frameBorder="0" allow="autoplay; picture-in-picture" allowFullScreen></iframe>
           <p className={`${styles.meetOurTeamText} ${style.tagLine}`}>At Tana, we believe your skills and your character define you —<br/>not where in the world you were born</p>
         <Link href="/" className={styles.learnBtn}>Get to know our mission</Link>
         <Image src={midImage} alt="midIMage" className={style.meetOurTeamMidImage} />
